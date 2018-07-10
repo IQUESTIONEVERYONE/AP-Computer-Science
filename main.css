@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+<body {
+      background-image:url("https://us.123rf.com/450wm/hospitalera/hospitalera0808/hospitalera080800018/3385214-brushed-dark-blue-metallic-background-with-central-highlight.jpg?ver=6");
+      color:#66FCF1;
+}
+
+a:link{
+    color: green;
+    background-color:rgb(255, 99, 71);
+    text-decoration:overline;
+}
+
+a:hover{
+    color:  ;
+    background-color:rgb(9, 100%, 64%, ,5);
+    text-decoration:overline;
+
+h1{ 
+    text-shadow: 3px 4px slateblue;
+    font-size:10vw;
+    text-decoration: underline;
+} 
+
+<!---if it doesn't work use:<h1 style="text-shadow: 3px 4px slateblue;" "font-size:10vw;" "text-decoration: overline;">Simply Robots 2.0</h1>--->
+
+h2, h3{
+    text-align: center;
+    color:#240090;
+    font-family: big caslon, serif;
+    font-size:7vw;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+p{
+     border: 7px inset #190061 
+     margin: 25px 50px 75px;
+     padding:50px 25px;
+     box-sizing: border-box;  
+     background-color:#282828;
+     color:#66FCF1
+     text-align: center;
+     font-family:didot, sans-serif;
+     font-size:5vw;
+}
+
+img { 
+   margin: auto;
+}
+
+</body>
+</style>
+</head>
+</html>
