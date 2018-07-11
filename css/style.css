@@ -12,15 +12,19 @@ a:link{
     color: green;
     background-color:rgb(255, 99, 71);
     text-decoration:overline;
+    display: inline-block;
+    padding: 30px 50px;
 }
 
 a:hover{
-    color:  ;
+    color: slateblue;
     background-color:rgb(9, 100%, 64%, ,5);
     text-decoration:overline;
+    display: inline-block;
+    padding: 30px 50px;
 
 h1{ 
-    text-shadow: 3px 4px slateblue;
+    text-shadow: "3px 4px slateblue";
     font-size:10vw;
     text-decoration: underline;
 } 
@@ -30,21 +34,21 @@ h1{
 h2, h3{
     text-align: center;
     color:#240090;
-    font-family: big caslon, serif;
+    font-family: "big caslon, serif";
     font-size:7vw;
     font-weight: bold;
     text-decoration: overline;
 }
 
 p{
-     border: 7px inset #190061 
+     border: 7px inset #190061; 
      margin: 25px 50px 75px;
      padding:50px 25px;
      box-sizing: border-box;  
      background-color:#282828;
-     color:#66FCF1
+     color:#66FCF1;
      text-align: center;
-     font-family:didot, sans-serif;
+     font-family: "didot, sans-serif";
      font-size:5vw;
 }
 
