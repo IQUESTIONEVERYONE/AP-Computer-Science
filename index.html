@@ -3,7 +3,39 @@
 <html>
 <head>
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+  
+body{
+     background-image:url("http://sf.co.ua/2012/wallpaper-1850864.jpg");
+     margin:0;
+} 
+
+.column{
+	float:left;
+    padding: 15px;
+}    
+
+.column.side{
+	width: 25%;
+}
+
+.column.middle{
+	width: 75%;
+}    
+
+.row.after {
+     content: "lololol";
+     display: table;
+     clear: both;
+}
+    	
+@media screen and (max-width:600px){
+     .column.side,.column.middle{
+      width: 100%;     
+   } 
+}
   
 * {
      box-sizing: border-box;
@@ -12,6 +44,7 @@
 .topnav{
      overflow: hidden;
      overflow-color: #0C0032;
+     background-color: #240090;
 }
 	
 .topnav a{
@@ -21,54 +54,17 @@
      text-align: center;
      padding: 15px 76px;
      text-decoration: none;
+     background-color: #240090;
 }
-
-.column{
-     float: left;
-     width: 50.33%;
-     padding: 18px;
-}     
-     
-.card{
-     background-color: rgba(128, 128, 128, .75);
-     text-align: bottom-left;
-}     
-     
-.row.after {
-     content: "lololol";
-     display: table;
-     clear: both;
-}
-     
-.footer{
-     text-align: bottom-left;
-}          
-    
-.column.side{
-	width: 25%;
-}	
-
-.column.middle{
-	width:75%;
-}	
-	
-@media screen and (max-width:550px){
-     .column{
-	  float: left;     
-     }          	
-	
-body{
-     background-image:url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rJI8ZWzzio4bewvs/light-blue-wireframe-polygon-shapes-float-on-a-black-background-motion-background_hxxudp46kg_thumbnail-full15.png");
-}
-
+                   
 a:link{
-    color: rgb(102, 0, 204);
+    color: #3500D3;
     text-decoration: overline;
 }
 	
 a:hover{
-    color: rgb(102, 0, 204, .7);
-    background-color: rgb(0, 0, 204);
+    color: rgb(102, 0, 204);
+    background-color: rgba(0, 0, 204, 0.6);
     text-decoration:overline; 
 }
 
@@ -77,7 +73,7 @@ p{
      margin: 50px 75px;
      padding: 50px 50px;
      box-sizing: border-box;  
-     background-color: linear-gradient(to right, rgba(59, 40, 96, .7), rgba(127, 225, 212, .5), rgba(211, 211, 211, .3));
+     background-color: hsla(240, 100%, 25%, 0.8);
      color: white;
      text-align: center;
      font-family:"didot", sans-serif;
@@ -87,7 +83,7 @@ p{
 h1{ 
     text-align: center; 
     text-shadow: 3px 4px rgb(148, 0, 211);
-    font-size:9vw;
+    font-size: 65px;
     text-decoration: underline;
     color: rgb(0, 0, 128);
      
@@ -95,101 +91,111 @@ h1{
                
  h2, h3{
     text-align: center;
-    color: #FF8C00;
-    font-family:"big caslon", serif;
-    font-size:7vw;
+    color: white;
+    font-family: "big caslon", serif;
+    font-size: 35px;
     font-weight: bold;
     text-decoration: overline;
-    border-style: hidden;
-    background-color: rgb(148, 0, 211);	 
+    background-color: rgba(148, 0, 211, 0.7);	 
 }
      
 h4{
     text-align: bottom-left;
-    color: white;
+    color: #3500D3;
     font-family: "arial", sans-serif;
-    font-size: 1vw;
-}    
-     
-span {
-     display: block;
-     color: white;
-}     
+    font-size: 2vw;
+}      
      
 li {
      display: inline;
-     color: #190061;
+     color: #0C0032;
+     background-color:rgba(127, 0, 255, 0.7);
 }
-     
+
 i {
-     font-size: 3vw;
+     font-size: 20px;
      color: white;  
      shadow: 2px 3px 4px;
 }          
+
+.footer{
+     text-align: bottom-left;
+} 
      
 img { 
-   text-align: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 } 
-                            
+                    
 </style>    
 </head>
 <body>
                             
+<div class="header">
 <h4>Welcome!</h4>
 <h1 title="is a website maintained by IQUESTIONEVERYONE;"> Simply Robots 2.0</h1>
+</div>
      
 <div class="topnav">
      <a href="#"> AI</a>
-     <a href="#"> Phyiscs</a>
+     <a href="#"> Physics</a>
      <a href="#"> Mechanics</a>
      <a href="#"> Coding</a>
 </div>          
  
-<div class="card">
+<div class="row">
+  <div class="column side">
+  <span style="color:white;background-color:#3500D3;"><i>The Technological singularity,</i> a concept borrowed from physics as the point in which all known laws of physics break down upon reaching the center of a black hole because of matter being infinitely dense, is a point in time in which technology would have surpassed human expectations up to the point that its effects would be irreversiable and inevitably, unpredictable.</span>
+  </div>
+
+<br>
+
+<div class="column middle">
+	 <h3>The Marvelous World of Technology</h3>
      <p>Technology is improving at increasingly expotential rate. What was thought to be once impossible to do in fields such as medicine, is now possible in almost any shape or form.</p>
-          <hr>
+</div>
+
+<hr>
+
+<div>
      <h3><b> Robots, to be specific</b></h3>
-     <span>Robots, for example are dominating the medical field with advancements like prosethetics, in space with the employment of rovers to explore distant celestial bodies, and with assembling a variety of foods for packaging to cars in factories.</span>
+     <p>Robots, for example are dominating the medical field with advancements like prosethetics, in space with the employment of rovers to explore distant celestial bodies, and with assembling a variety of foods for packaging to cars in factories.</p>
+     
           <br>
-     <a href="https:www.http://exiii.jp"> This is a link to website about robotic prosthesises.</a>  
+     <a href="https:www.http://exiii.jp" style="text-align:center;display:block;margin-left:auto;margin-right:auto;"> This is a link to website about robotic prosthesises.</a>  
            <br>     
      <a href="https://www.asme.org/engineering-topics/articles/bioengineering/top-6-robotic-applications-in-medicine/"  
-     title="More medical advancements concerning robots">
-     <img src="https://cdn-images-1.medium.com/max/1037/1*j9IuKAraZoXrbiDW3QVDWw.jpeg?" 
-      alt="friendly technology" style="width:200 px;height:300px"></a>
+     title="More medical advancements concerning robots"><img src="https://cdn-images-1.medium.com/max/1037/1*j9IuKAraZoXrbiDW3QVDWw.jpeg?" alt="friendly technology" style="width:200 px;height:300px;text-align:center"></a>
 </div>              
     
      <br>
 	
-<div class="card">     
+<div>     
      <h3> A common misconception about robots</h3>
-     <p> Contrary to what most people believe, <i>robots are not always out to get us.</i> They are not all terminators bent on the destruction of human kind; instead, only reflections of the needs and wants of their only creators</p><br> 
-     <p>If a robot or some form of artifical intelligence does rise up and create a revolution, it would need a reason.<br> 
-    If programmed like a human, it will act like one in the face of injustice... <br>Which really says something about the <mark>morality</mark> of the very humans who created something close to human...</p>
-     <img src="https://pbs.twimg.com/profile_images/808348342669307904/zP4-MhZe.jpg" alt="robotbearlol" width="400" height="300"><br>
-</div>     
-<div class="card">
-     <blockquote cite="https://www.goodreads.com/work/quotes/1796026-i-robot" style="text-align:center">
-     "A robot may not injure a human being or, through inaction, allow a human being to come to harm.<br>
+     <p> Contrary to what most people believe, <i>robots are not always out to get us.</i> They are not all terminators bent on the destruction of human kind; instead, only reflections of the needs and wants of their only creators. If a robot or some form of artifical intelligence does rise up and create a revolution, it would need a reason.<br>If programmed like a human, it will act like one in the face of injustice... <br>Which really says something about the <mark>morality</mark> of the very humans who created something close to human...</p>
+     <img src="https://pbs.twimg.com/profile_images/808348342669307904/zP4-MhZe.jpg" alt="robotbearlol" width="400" height="300">
+</div>   
+
+<div>
+     <blockquote cite="https://www.goodreads.com/work/quotes/1796026-i-robot" style="text-align:center;color:#0C0032;background-color:rgba(127, 0, 255, 0.7);">
+      "A robot may not injure a human being or, through inaction, allow a human being to come to harm.<br>
      A robot must obey orders given it by human beings except where such orders would conflict with the First Law. <br>
      A robot must protect its own existence as long as such protection does not conflict with the First or Second Law."<br></blockquote>
-<div>-Issac Asimov,<br><i>I, Robot</i></div>
-</div>     
-                                                                           
+<div style="color:#190061">-Issac Asimov,<br><i>I, Robot</i></div></div>                                                                       
 <br>
 	
-<div class="card">          
+<div>          
 <h2>The concession</h2>
      <p>Quite unfortnately, there are robots and AI with malicious intent and that can inflict harm because people program them to do so. Such awesome power cannot be abused...</p>                                                                          
      <a href="http://money.cnn.com/2018/06/07/technology/mit-media-lab-normal-ai/index.html" title= "unfriendly technology"><img src="http://www.lcdviews.com/wp-content/uploads/2018/06/5375489F-E0F3-460B-B2D3-EBA901447788.jpeg" alt="unfriendly technology" style="width:200 px;height:300px"></a>
 </div>    
 <br>
-<div class="card">
+
+<div>
      <h3>There are also other types of robots</h3>
           <ul>
-               <li>Industrial, (ex.:the ones for welding)<a href="https://www.digitaltrends.com/cool-tech/coolest-military-robots/"><i class="fas fa-robot"></i></a></li>
-               <br>
-               <li>Domestic/household, (ex.: roomba)<a href="https://www.youtube.com/watch?v=XCbJHr8TCi8"><i class="fas fa-warehouse"></i></a></li>
+               <li>Industrial, (ex.:the ones for welding)<a href="https://www.digitaltrends.com/cool-tech/coolest-military-robots/"><i class="fas fa-robot"></i></a></li>                          <li>Domestic/household, (ex.: roomba)<a href="https://www.youtube.com/watch?v=XCbJHr8TCi8"><i class="fas fa-warehouse"></i></a></li>
                <br>
                <li>Space, (ex:The Mars rover Curiosity)<a href="https://www.nasa.gov/mission_pages/msl/index.html"><i class="fab fa-android"></i></a></li>
           </ul>
@@ -198,7 +204,8 @@ img {
           
 <br>
 <img src="https://cdn.dribbble.com/users/1138875/screenshots/4432385/roboto_animation_dribbble.gif" 
-alt="funny robot gif" style="width:500px;height:350px;text-align:center;">
+alt="funny robot gif" style="width:500px;height:350px;">
+</div>
 
 <hr>
 <footer> 
